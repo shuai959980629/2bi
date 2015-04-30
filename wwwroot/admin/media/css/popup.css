@@ -1,0 +1,44 @@
+/*弹层*/		
+#pop_up{
+	background:#000; z-index:99 !important; width:100%; height:100%; position:fixed; right:0; left:0; bottom:0; top:0; opacity:0.5}
+	
+#prompt,#pop_div{
+	width:540px; background:#fff; margin:0 auto; z-index:100;left:27%; top:35%; position: fixed;padding-bottom: 8px;}
+	
+#prompt .title,#pop_div .title{
+	 padding-left:20px; height:55px; line-height:55px; background:#e1e1e1; font-size:24px; color:#333;}
+	 
+#prompt .title a ,#pop_div .title a{
+	float:right; margin-right:10px; cursor:pointer;}
+	 
+#prompt .content,#pop_div .content{
+	font-size:14px; padding:10px 20px;max-height: 500px; overflow-x: hidden;}
+#prompt .content .c_l,#prompt .content .c_r{
+	float:left;}
+	
+#prompt .content .c_l{
+	width:120px; line-height:30px; text-align:right; padding-right:15px}
+	
+#prompt .content .c_l em{
+	font-style:normal; color:#F00; padding-right:10px;}
+	
+#prompt .content .c_r input,#prompt .content .c_r select{
+	width:300px; height:30px; border:#ddd 1px solid; line-height:30px;}
+	
+	
+#prompt .content .c_r textarea , #pop_div .content .c_r textarea {
+	width:300px; height:150px; border:#ddd 1px solid; }
+
+#prompt .prompt_button #pop_div.prompt_button{
+	padding-left:145px;}	
+#prompt .prompt_button a,#pop_div .prompt_button a{
+	float: right;; font-size:20px; color:#fff; padding:10px 20px; display:block; background:#c92428; margin:10px;cursor: pointer;}
+	
+#prompt .prompt_button a.determine,#pop_div .prompt_button a.determine{
+	background:#35a948;}
+	
+#prompt .number,#pop_div.number{
+	padding-left:10px;}
+	
+#prompt tr,#pop_div tr{
+	border-bottom:#ddd 1px solid;}

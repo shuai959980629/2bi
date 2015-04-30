@@ -1,0 +1,66 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?6qepfv');
+	src:url('../fonts/icomoon.eot?#iefix6qepfv') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?6qepfv') format('woff'),
+		url('../fonts/icomoon.ttf?6qepfv') format('truetype'),
+		url('../fonts/icomoon.svg?6qepfv#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	transition: all 0.5s ease-in-out 0s;
+	text-decoration: inherit;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-clock:before {
+	content: "\e600";
+}
+
+
+/*礼品*/
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height:50px;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gift:before {
+	content: "\e602";
+}
+.icon-pen:before {
+	content: "\e601";
+}
+.icon-clock:before {
+	content: "\e600";
+}
+.icon-food:before {
+	content: "\e603";
+}
+
+.icon-t-shirt:before {
+	content: "\e604";
+}
+.icon-cup:before {
+	content: "\e605";
+}
